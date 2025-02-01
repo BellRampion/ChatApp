@@ -51,6 +51,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG,
                         format='%(levelname)-8s %(message)s')
 
-    xmpp = EchoBot('bellrampion@xabber.org', 'xmppS3rv3r')
+    xmpp = EchoBot('bellrampion@xabber.org', 'xmppServerExamplePwd')
     xmpp.connect()
     xmpp.process(forever=True)
